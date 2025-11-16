@@ -1,0 +1,61 @@
+.problems-text{
+  display: flex; 
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  color: white;
+  text-align: start;
+  margin: 20px 10px;
+}
+.problem-heading{
+  color: #ffffff;
+  text-decoration: underline 4px #d3e134;
+  text-underline-offset: 4px;
+}
+.problem-para{
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.problems-text h3 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.problem-icon{
+  color: red;
+  margin: 0px 10px;
+  font-size: 30px;
+}
+.problem-container{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  max-height: 1600px;
+}
+.problem-grp{
+  margin-bottom: 20px;
+}
+.problem-grp .problems-pic{
+  width: 80vw;
+  max-width: 600px;
+  border: 2px solid #d3e134;
+  border-radius: 5px;
+}
+@media (min-width: 1200px){
+  .problems-text{
+    font-size: 20px;
+  }
+  .problem-icon{
+    font-size: 35px;
+  }
+  .problem-grp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .problem-grp .problems-pic{
+    width: 30vw;
+  }
+}

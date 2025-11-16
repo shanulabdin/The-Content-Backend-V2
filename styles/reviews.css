@@ -1,0 +1,87 @@
+.card{
+  color: black;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px 20px;
+  max-width: 400px;
+  min-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card .reviewText{
+  flex: 1;
+}
+.reviewText p{
+  text-align: center;
+}
+.clientProfile{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: start;
+}
+
+.clientProfile .clietName{
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.clientProfile img{
+  width: 40px;
+  height: 40px;
+  border-radius: 99px;
+}
+.card .reviewText{
+  text-align: start;
+  margin-top: 10px;
+}
+.card .reviewText .boldRev{
+  font-weight: 700;
+  text-align: center;
+  margin: 10px auto;
+}
+.clientRating{
+  display: none;
+}
+/* Review carousel Animation */
+#reviews-section{
+  overflow-x: auto;
+}
+#reviews-section::-webkit-scrollbar{
+  display: none;
+}
+.cards{
+  display: flex;
+  overflow-x: auto;
+}
+.card-grp{
+  display: flex;
+}
+/* Infinite animation carousel */
+.card{
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  pointer-events: none;
+}
+.cards::-webkit-scrollbar{
+  display: none;
+}
+.card-grp{
+  gap: 1em;
+  animation: carousel 60s infinite linear;
+  padding-left: 1em;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+@keyframes carousel {
+  from {translate: 0;}
+  to {translate: 100%;}
+}

@@ -1,0 +1,60 @@
+.cta-section {
+  padding: 72px 20px;
+  text-align: center;
+  background: #0f1115;
+  color: #fff;
+  border-radius: 16px;
+}
+.cta-inner {
+  max-width: 840px;
+  margin: 0 auto;
+}
+.cta-inner h2 {
+  margin-bottom: 20px;
+}
+.cta-btn {
+  display: inline-block;
+  padding: 14px 22px;
+  text-decoration: none;
+  border-radius: 10px;
+  background: #666666;
+  color: #0f1115;
+  box-shadow: 0 8px 24px rgba(211,225,52,0.35);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 3px solid #d3e134;
+  color: #d3e134;
+  border-radius: 4px 4px;
+  margin: 0px 10px;
+  transition:
+    transform 150ms ease,
+    box-shadow 150ms ease,
+    background-color 200ms ease,
+    color 200ms ease;
+}
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(211,225,52,0.45);
+  background-color: #d3e134;
+  color: #0f1115;
+}
+.cta-btn:active { 
+  transform: translateY(-1px); 
+}
+@media (prefers-reduced-motion: reduce) {
+  .cta-btn { transition: none; }
+}
+@media (min-width: 700px){
+  .cta-btn{
+    font-size: 25px;
+  }
+}
+@media (min-width: 1200px){
+  .cta-btn{
+    font-size: 30px;
+  }
+}

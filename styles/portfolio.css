@@ -1,0 +1,84 @@
+.portfolio-heading{
+  font-style: italic;
+  color: #d3e134;
+  width: 80vw;
+  font-size: 3vw;
+}
+.portfolio-video-container{
+  width: 100%;
+  display: grid;
+}
+.portfolio-video{
+  border: 2px solid #d3e134;
+  width: 90%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 4px;
+  margin: 10px auto;
+}
+.video-stats{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d3e134;
+  margin: 3px 10px 60px 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.video-stats p{
+  margin: 0px 8px;
+}
+.pills{
+  color: #fff;
+  margin: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pill{
+  border: 3px solid #d3e134;
+  border-radius: 99px;
+  margin: 15px 10px;
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0px 0px 5px #d3e134;
+  width: 360px;
+}
+.pills .pill-icon{
+  color: #d3e134;
+  font-size: 30px;
+  margin: 4px 10px;
+}
+.pills p{
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 6px;
+}
+.videos-container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 700px) {
+  .videos-container{
+    grid-template-columns: 1fr 1fr;
+  }
+  .video-stats{
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .videos-container{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .portfolio-heading{
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,76 @@
+.channels-section{
+  overflow-x: auto;
+  padding: 0;
+}
+.channels-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.channel-tooltip{
+  margin: 20px 10px;
+  color: white;
+  background-color: rgb(30, 30, 30);
+  padding: 15px 15px;
+  border-radius: 10px;
+  width: 170px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.channel-pfp{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 99px;
+}
+/* Infinite animation carousel */
+.channel-carousel{
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+.channel-carousel::-webkit-scrollbar{
+  display: none;
+}
+.channels-group{
+  gap: 1em;
+  animation: spin 15s infinite linear;
+  padding-right: 1em;
+}
+@keyframes spin {
+  from {translate: 0;}
+  to {translate: -100%;}
+}
+@media (min-width: 700px){
+  .channel-tooltip{
+    margin: 20px 10px;
+    width: 240px;
+    height: 240px;
+    font-size: 20px;
+  }
+  .channel-pfp{
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (min-width: 1100px){
+  .channel-tooltip{
+    margin: 20px 10px;
+    width: 260px;
+    height: 260px;
+    font-size: 22px;
+  }
+  .channel-pfp{
+    width: 100px;
+    height: 100px;
+  }
+}

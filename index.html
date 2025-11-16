@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="styles/bundle.min.css">
+
+  <title>The Content Backend</title>
+</head>
+<body>
+  <main>
+    <section id="home-section">
+      <div class="headingText">
+        <h2>ACHIEVE EFFORTLESS YOUTUBE SUCCESS WITH OUR REVOLUTIONARY</h2>
+        <h1>“VIDEO EDITING EXPERTISE"</h1>
+      </div>
+
+      <div class="video-frame">
+        <div id="player"></div>
+
+        <!-- Your custom sound toggle -->
+        <button class="overlay-audio" aria-pressed="true" aria-label="Toggle sound">
+          <span class="icon">
+            <ion-icon name="volume-high-outline"></ion-icon>
+          </span>
+        </button>
+      </div>
+
+      <div class="main-para-container">
+        <p class="main-para">
+          We Collaborate with YouTube Faceless Creators to Scale Their Channels, <br>
+          Achieve Consistent Growth, and Generate Maximum Revenue through <br>
+          Expert Content Production.
+        </p>
+      </div>
+      <div class="headingBtnsContainer">
+        <a class="cta-btn scheduleBtn" href="/The-Content-Backend/calendly.html">Book Intro Call</a>
+      </div>
+    </section>
+
+    <section class="channels-section">
+      <h2 class="sectionHeading headings">CLIENTS</h2>
+
+      <div class="channel-carousel">
+        <div class="channels-group">
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/carCareClues.jpg" alt="carcareclues.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">CarCareClues</div>
+              <div class="channel-subs">297K Subscribers</div>
+            </div>
+          </div>
+
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/financeEconomist.jpg" alt="financeEconomist.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">FinanceEconomist</div>
+              <div class="channel-subs">580K Subscribers</div>
+            </div>
+          </div>
+
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/theAutoCoach.jpg" alt="theAutoCoach.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">TheAutoCoach</div>
+              <div class="channel-subs">50K Subscribers</div>
+            </div>
+          </div>
+
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/onRoatTv.jpg" alt="onRoatTv.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">OnRoadTv</div>
+              <div class="channel-subs">1K Subscribers</div>
+            </div>
+          </div>
+
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/carsSeries.jpg" alt="carsSeries.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">CarsSeries</div>
+              <div class="channel-subs">11K Subscribers</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="channels-group">
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/carCareClues.jpg" alt="carcareclues.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">CarCareClues</div>
+              <div class="channel-subs">297K Subscribers</div>
+            </div>
+          </div>
+
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/financeEconomist.jpg" alt="financeEconomist.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">FinanceEconomist</div>
+              <div class="channel-subs">580K Subscribers</div>
+            </div>
+          </div>
+
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/theAutoCoach.jpg" alt="theAutoCoach.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">TheAutoCoach</div>
+              <div class="channel-subs">50K Subscribers</div>
+            </div>
+          </div>
+
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/onRoatTv.jpg" alt="onRoatTv.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">OnRoadTv</div>
+              <div class="channel-subs">1K Subscribers</div>
+            </div>
+          </div>
+
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/carsSeries.jpg" alt="carsSeries.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">CarsSeries</div>
+              <div class="channel-subs">11K Subscribers</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="channels-group">
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/carCareClues.jpg" alt="carcareclues.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">CarCareClues</div>
+              <div class="channel-subs">297K Subscribers</div>
+            </div>
+          </div>
+
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/financeEconomist.jpg" alt="financeEconomist.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">FinanceEconomist</div>
+              <div class="channel-subs">580K Subscribers</div>
+            </div>
+          </div>
+
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/theAutoCoach.jpg" alt="theAutoCoach.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">TheAutoCoach</div>
+              <div class="channel-subs">50K Subscribers</div>
+            </div>
+          </div>
+
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/onRoatTv.jpg" alt="onRoatTv.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">OnRoadTv</div>
+              <div class="channel-subs">1K Subscribers</div>
+            </div>
+          </div>
+
+          <div class="channel-tooltip">
+            <div class="channel-pfp-container">
+              <img class="channel-pfp" src="imgs/channels/tseries.png" alt="t-series.img">
+            </div>
+            <div class="channel-info-container">
+              <div class="channel-name">T-Series</div>
+              <div class="channel-subs">110M Subscribers</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="protfolio-section">
+      <h1 class="portfolio-heading">CONTENT THAT SKYROCKETS YOUR REVENUE</h1>
+      
+      <div class="videos-container">
+        <div class="video">
+          <div class="portfolio-video-container">
+            <iframe 
+            class="portfolio-video" 
+            src="https://www.youtube.com/embed/kzVJlkS5zgg?si=BvGCgA_bx5jTeYnT" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            modestbranding="1"
+            role="0"
+            playinline="1"
+            allowfullscreen></iframe>
+          </div>
+          <div class="video-stats">
+            <p>4M views</p>
+            <p>8.4% CTR</p>
+            <p>72% WT</p>
+          </div>
+        </div>
+        
+        <div class="video">
+          <div class="portfolio-video-container">
+            <iframe 
+            class="portfolio-video" 
+            src="https://www.youtube.com/embed/zf4ky70CBv0?si=hEuUsRZ4XtkbqakM"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            modestbranding="1"
+            role="0"
+            playinline="1"
+            allowfullscreen></iframe>
+          </div>
+          <div class="video-stats">
+            <p>1.7M views</p>
+            <p>7.9% CTR</p>
+            <p>76% WT</p>
+          </div>
+        </div>
+        
+        <div class="video">
+          <div class="portfolio-video-container">
+            <iframe 
+            class="portfolio-video" 
+            src="https://www.youtube.com/embed/HHyHeRAy31k?si=tcLXXomYm1jt9BmR"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+          </div>
+          <div class="video-stats">
+            <p>3M views</p>
+            <p>9.3% CTR</p>
+            <p>71% WT</p>
+          </div>
+        </div>
+        
+        <div class="video">
+          <div class="portfolio-video-container">
+            <iframe 
+            class="portfolio-video" 
+            src="https://www.youtube.com/embed/_i-QGiGtJg0?si=jSDUlhBTK8l0UgoW"  
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+          </div>
+          <div class="video-stats">
+            <p>1.2M views</p>
+            <p>7.0% CTR</p>
+            <p>81% WT</p>
+          </div>
+        </div>
+        
+        <div class="video">
+          <div class="portfolio-video-container">
+            <iframe 
+            class="portfolio-video" 
+            src="https://www.youtube.com/embed/8W39RXnCkx0?si=96ebV3IGv2_Er997" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            modestbranding="1"
+            role="0"
+            playinline="1"
+            allowfullscreen></iframe>
+          </div>
+          <div class="video-stats">
+            <p>1.9M views</p>
+            <p>8.8% CTR</p>
+            <p>72% WT</p>
+          </div>
+        </div>
+        
+        <div class="video">
+          <div class="portfolio-video-container">
+            <iframe 
+            class="portfolio-video" 
+            src="https://www.youtube.com/embed/NizoL6eVtAc?si=ES_fyDQQj7C6a6ew"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            modestbranding="1"
+            role="0"
+            playinline="1"
+            allowfullscreen></iframe>
+          </div>
+          <div class="video-stats">
+            <p>1M views</p>
+            <p>7.1% CTR</p>
+            <p>70% WT</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pills">
+        <div class="pill">
+          <ion-icon class="pill-icon" name="eye-outline"></ion-icon>
+          <p>50M Views Served</p>
+        </div>
+        <div class="pill">
+          <ion-icon class="pill-icon" name="cash-outline"></ion-icon>
+          <p>$100k Revenue generated</p>
+        </div>
+        <div class="pill">
+          <ion-icon class="pill-icon" name="trending-up-outline"></ion-icon>
+          <p>20% Click-Through Rate</p>
+        </div>
+      </div> 
+    </section>
+
+    <section id="reviews-section">
+      <h2 class="sectionHeading headings">REVIEWS</h2>
+
+      <div class="cards">
+
+        <div class="card-grp">
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-one.jpg" alt="pfp">
+              <p class="clietName">Aisha, Fashion Creator</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Game-changer for my channel.”
+              </p>
+              <p>
+                Clean cuts, great pacing, and storytelling that keeps viewers hooked. My retention and subs went up immediately!
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-two.jpg" alt="pfp">
+              <p class="clietName">Daniel, Tech Reviewer</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Understands YouTube deeply.”
+              </p>
+              <p>
+                He didn't just edit — he improved hooks, pacing and suggested thumbnail tweaks. Videos feel premium now.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-three.jpg" alt="pfp">
+              <p class="clietName">Alex, Travel Creator</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Fast, creative, reliable and honest.”
+              </p>
+              <p>
+                Matched my style instantly and delivered on time. Best editing experience I've had so far as a youtuber.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-four.jpg" alt="pfp">
+              <p class="clietName">Mia, Fitness Influencer</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Took my content to the next level!”
+              </p>
+              <p>
+                My workouts look clean, energetic and professional now. I gained new followers within weeks. Highly recommended!
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-five.jpg" alt="pfp">
+              <p class="clietName">Sam, Tech Reviewer</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Understood my style right away.”
+              </p>
+              <p>
+                Smooth communication and fast turnarounds. The edits feel modern and sharp — exactly what I needed.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-six.jpg" alt="pfp">
+              <p class="clietName">Emily, Beauty Blogger</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “So easy to work with.”
+              </p>
+              <p>
+                They always listen to feedback and bring creative ideas. My videos finally look consistent and branded.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-grp">
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-one.jpg" alt="pfp">
+              <p class="clietName">Aisha, Fashion Creator</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Game-changer for my channel.”
+              </p>
+              <p>
+                Clean cuts, great pacing, and storytelling that keeps viewers hooked. My retention and subs went up immediately!
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-two.jpg" alt="pfp">
+              <p class="clietName">Daniel, Tech Reviewer</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Understands YouTube deeply.”
+              </p>
+              <p>
+                He didn't just edit — he improved hooks, pacing and suggested thumbnail tweaks. Videos feel premium now.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-three.jpg" alt="pfp">
+              <p class="clietName">Alex, Travel Creator</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Fast, creative, reliable and honest.”
+              </p>
+              <p>
+                Matched my style instantly and delivered on time. Best editing experience I've had so far as a youtuber.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-four.jpg" alt="pfp">
+              <p class="clietName">Mia, Fitness Influencer</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Took my content to the next level!”
+              </p>
+              <p>
+                My workouts look clean, energetic and professional now. I gained new followers within weeks. Highly recommended!
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-five.jpg" alt="pfp">
+              <p class="clietName">Sam, Tech Reviewer</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Understood my style right away.”
+              </p>
+              <p>
+                Smooth communication and fast turnarounds. The edits feel modern and sharp — exactly what I needed.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-six.jpg" alt="pfp">
+              <p class="clietName">Emily, Beauty Blogger</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “So easy to work with.”
+              </p>
+              <p>
+                They always listen to feedback and bring creative ideas. My videos finally look consistent and branded.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-grp">
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-one.jpg" alt="pfp">
+              <p class="clietName">Aisha, Fashion Creator</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Game-changer for my channel.”
+              </p>
+              <p>
+                Clean cuts, great pacing, and storytelling that keeps viewers hooked. My retention and subs went up immediately!
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-two.jpg" alt="pfp">
+              <p class="clietName">Daniel, Tech Reviewer</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Understands YouTube deeply.”
+              </p>
+              <p>
+                He didn't just edit — he improved hooks, pacing and suggested thumbnail tweaks. Videos feel premium now.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-three.jpg" alt="pfp">
+              <p class="clietName">Alex, Travel Creator</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Fast, creative, reliable and honest.”
+              </p>
+              <p>
+                Matched my style instantly and delivered on time. Best editing experience I've had so far as a youtuber.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-four.jpg" alt="pfp">
+              <p class="clietName">Mia, Fitness Influencer</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Took my content to the next level!”
+              </p>
+              <p>
+                My workouts look clean, energetic and professional now. I gained new followers within weeks. Highly recommended!
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-five.jpg" alt="pfp">
+              <p class="clietName">Sam, Tech Reviewer</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “Understood my style right away.”
+              </p>
+              <p>
+                Smooth communication and fast turnarounds. The edits feel modern and sharp — exactly what I needed.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="clientProfile">
+              <img class="client-one" src="imgs/client/client-six.jpg" alt="pfp">
+              <p class="clietName">Emily, Beauty Blogger</p>
+            </div>
+
+            <div class="reviewText">
+              <p class="boldRev">
+                “So easy to work with.”
+              </p>
+              <p>
+                They always listen to feedback and bring creative ideas. My videos finally look consistent and branded.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="problems-section">
+      <h2 class="sectionHeading">Can You Relate To These Problems</h2>
+
+      <div class="problem-grp">
+        <div class="problems-text">
+          <div class="problem-container">
+            <h3 class="problem-heading">
+              <ion-icon class="problem-icon" name="close-circle-outline"></ion-icon>
+              Low Engagement</h3>
+              <p class="problem-para">
+                Viewers drop off if videos aren't dynamic or engaging.
+                Your solution: You improve retention with pacing, captions, hooks, and storytelling.
+              </p>
+          </div>
+          
+          <div class="problem-container">
+            <h3 class="problem-heading">
+              <ion-icon class="problem-icon" name="close-circle-outline"></ion-icon>
+              Burnout From Doing Everything</h3>
+              <p class="problem-para">
+                Filming + scripting + editing = overwhelming. Many creators burn out.
+                Your solution: You take the editing load off so they stay motivated and consistent.
+              </p>
+          </div>
+          
+          <div class="problem-container">
+            <h3 class="problem-heading">
+              <ion-icon class="problem-icon" name="close-circle-outline"></ion-icon>
+              Time Lost Editing Instead of Creating</h3>
+              <p class="problem-para">
+                Editing takes hours and keeps creators from filming, brainstorming, or engaging with their audience.
+                Your solution: You give them their time back to focus on content and growth.
+              </p>
+          </div>
+        </div>
+
+        <div class="problems-pic-container">
+          <img class="problems-pic" src="imgs/utilities/man.webp" alt="man.webp">
+        </div>
+      </div>
+
+      <div class="headingBtnsContainer">  
+        <a class="cta-btn scheduleBtn" href="/The-Content-Backend/calendly.html">Lets Fix Them</a>
+      </div>
+    </section>
+
+    <section id="solution-section">
+      <div class="solutions-text">
+        <h2 class="sectionHeading">Why Choose Content Backend</h2>
+  
+        
+        <div class="solution-grp">
+          <div class="solution-cards">
+            <div class="solution-card">
+              <ion-icon class="solution-icon" name="camera-outline"></ion-icon>
+              <h3 class="solution-heading">Higher Viewer Retention</h3>
+              <p class="solution-para">
+                Clean cuts, better pacing, subtitles, hooks, and engaging edits.
+              </p>
+              <p class="solution-para">
+                Result: More watch-time → boosts YouTube algorithm performance.
+              </p>
+            </div>
+            
+            <div class="solution-card">
+              <ion-icon class="solution-icon" name="podium-outline"></ion-icon>
+              <h3 class="solution-heading">More Consistent Uploads</h3>
+              <p class="solution-para">
+                With editing handled, the creator can film more and upload regularly.
+              </p>
+              <p class="solution-para">
+                Result: Consistency = faster growth and stronger audience trust.
+              </p>
+            </div>
+            
+            <div class="solution-card">
+              <ion-icon class="solution-icon" name="trophy-outline"></ion-icon>
+              <h3 class="solution-heading">Professional & On-Brand Content</h3>
+              <p class="solution-para">
+                Polished visuals, smooth transitions, improved audio, and unified style.
+              </p>
+              <p class="solution-para">
+                Result: Strong brand → increased credibility = subscriber confidence.
+              </p>
+            </div>
+          </div>
+
+          <div class="speaker-pic-container">
+            <img class="speaker-pic" src="imgs/utilities/speaker.webp" alt="speaker.webp">
+          </div>
+        </div>
+
+      </div>
+      <div class="headingBtnsContainer">  
+        <a class="cta-btn scheduleBtn" href="/The-Content-Backend/calendly.html">Lets Plan</a>
+      </div>
+    </section>
+
+    <section id="strategy-section">
+      <h2 class="sectionHeading">YOUR CLEAR PATH TO SUCCESS</h2>
+      
+      <div class="strategy-text-1">
+        <ol>
+          <li>Channel Audit</li>
+          <li>Creative Planning</li>
+          <li>Editing</li>
+          <li>Feedback Loop</li>
+          <li>Delivery</li>
+          <li>Growth Tracking</li>
+        </ol>
+      </div>
+
+      <div class="strategy-text-2">
+        <div class="arrow-grp1">
+          <div class="list-container">
+            <p class="list-number">1.</p>
+            <p class="list-text">Channel Audit</p>
+          </div>
+        </div>
+
+        <div class="arrow-img">
+            <img class="arrow-png" src="imgs/utilities/arrow.webp" alt="arrow.png">
+        </div>
+
+        <div class="arrow-grp2">
+          <div class="list-container">
+            <p class="list-number">2.</p>
+            <p class="list-text">Creative Planning</p>
+          </div>
+        </div>
+
+        <div class="arrow-grp1">
+          <div class="list-container">
+            <p class="list-number">3.</p>
+            <p class="list-text">Video Editing</p>
+          </div>
+        </div>
+
+        <div class="arrow-img">
+            <img class="arrow-png" src="imgs/utilities/arrow.webp" alt="arrow.png">
+        </div>
+
+        <div class="arrow-grp2">
+          <div class="list-container">
+            <p class="list-number">4.</p>
+            <p class="list-text">Feedback Loop</p>
+          </div>
+        </div>
+        
+        <div class="arrow-grp1">
+          <div class="list-container">
+            <p class="list-number">5.</p>
+            <p class="list-text">On-Time Delivery</p>
+          </div>
+        </div>
+
+        <div class="arrow-img">
+          <img class="arrow-png" src="imgs/utilities/arrow.webp" alt="arrow.png">
+        </div>
+
+        <div class="arrow-grp2">
+          <div class="list-container">
+            <p class="list-number">6.</p>
+            <p class="list-text">Growth Tracking</p>
+          </div>
+        </div>
+      </div>
+        
+      <div class="cta-inner">
+        <a class="cta-btn scheduleBtn" href="/The-Content-Backend/calendly.html">Book a Call</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- JS Links -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="scripts/script.js"></script>
+
+  <!-- YouTube Iframe API -->
+  <script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>

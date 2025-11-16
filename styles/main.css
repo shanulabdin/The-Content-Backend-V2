@@ -1,0 +1,109 @@
+.headingText{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  max-width: 900px;
+}
+.headingText h2{
+  color: #ffffff;
+}
+.headingText h1{
+  color: #d3e134;
+}
+.main-para-container{
+  margin: 10px 10px;
+}
+.main-para-container p{
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.video-frame {
+  margin: 20px 10px;
+  width: 100%;  
+  max-width: 1000px;
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #000;
+  border-radius: 10px;
+  padding: 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#player, .video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+/* Full-area invisible button */
+.overlay-audio {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  background: transparent;
+  border: 0; padding: 0;
+  cursor: pointer;
+  z-index: 10;
+}
+/* Centered emoji that pops then fades */
+.overlay-audio .icon {
+  position: absolute; left: 50%; top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  font-size: 44px; color: #fff;
+  opacity: 0;                     /* hidden by default */
+  transition: opacity .25s ease;
+  pointer-events: none;
+  background-color: #ffffff96;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 99px;
+}
+/* Optional: reduced motion users */
+@media (prefers-reduced-motion: reduce) {
+  .overlay-audio .icon { 
+    transition: none; 
+  }
+}
+@media (min-width: 700px) {
+  .video-frame {
+    width: 90%;
+    margin: 20px 40px;
+  }
+  .main-para-container{
+    margin: 10px 70px;
+  }
+  .main-para-container p{
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  .headingText h2{
+    font-size: 32px;
+  }
+  .headingText h1{
+    font-size: 38px;
+  }
+}
+@media (min-width: 1100px) {
+  .video-frame {
+    width: 90%;
+    margin: 20px 40px;
+  }
+  .main-para-container{
+    margin: 10px 70px;
+  }
+  .main-para-container p{
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  .headingText h2{
+    font-size: 38px;
+  }
+  .headingText h1{
+    font-size: 44px;
+  }
+}
